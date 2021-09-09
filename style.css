@@ -417,7 +417,7 @@ html, body {
 .Introducing__container {
   position: relative;
   height: 1080px;
-  background: url("/images/bg-screen/Bg.png");
+  background: url("./images/bg-screen/Bg.png");
 }
 @media screen and (max-width: 1600px) {
   .Introducing__container {
