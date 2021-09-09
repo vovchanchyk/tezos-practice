@@ -1,0 +1,152 @@
+fonts 
+--first screen 
+
+-big title =
+font-family: Nunito;
+font-size: 72px;
+font-style: normal;
+font-weight: 800;
+line-height: 98px;
+letter-spacing: 0em;
+
+- second font = 
+//styleName: Description;
+font-family: Nunito;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 65px;
+letter-spacing: 0em;
+text-align: left;
+
+- social linc font = 
+//styleName: Description;
+font-family: Nunito;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 65px;
+letter-spacing: 0em;
+text-align: left;
+
+all fonts use the same font color = rgba(79, 79, 79, 1)
+
+--second screen 
+
+- big title= 
+//styleName: Header;
+font-family: Nunito;
+font-size: 72px;
+font-style: normal;
+font-weight: 800;
+line-height: 98px;
+letter-spacing: 0em;
+text-align: left;
+
+- second text 
+    third size = 
+//styleName: Description small;
+font-family: Nunito;
+font-size: 34px;
+font-style: normal;
+font-weight: 400;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+
+-third text 
+avatar name 
+//styleName: Description;
+font-family: Nunito;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 65px;
+letter-spacing: 0em;
+text-align: left;
+
+
+fourth text 
+avatar position 
+=//styleName: Description small;
+font-family: Nunito;
+font-size: 34px;
+font-style: normal;
+font-weight: 400;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+
+
+--thisrd screen
+
+big title 
+//styleName: Header;
+font-family: Nunito;
+font-size: 72px;
+font-style: normal;
+font-weight: 800;
+line-height: 98px;
+letter-spacing: 0em;
+text-align: left;
+
+second title 
+//styleName: Subheader;
+font-family: Nunito;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0em;
+text-align: left;
+
+description 
+//styleName: Description small;
+font-family: Nunito;
+font-size: 34px;
+font-style: normal;
+font-weight: 400;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+
+
+last screen 
+//styleName: Header;
+font-family: Nunito;
+font-size: 72px;
+font-style: normal;
+font-weight: 800;
+line-height: 98px;
+letter-spacing: 0em;
+text-align: center;
+
+
+
+==========================
+blocks 
+
+first screen has two blocks 
+both = 1920 px
+height = 1080px
+left = 757 px
+right = 1163px
+
+second screen has one block
+width = 1920 px
+height = 1080px
+
+
+third screen 
+width = 1920 px
+height = 1080px
+left = 757 px
+right = 1163px
+
+last screen 
+title = 1098px 
+height 191px
+
+
+
+

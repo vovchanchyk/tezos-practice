@@ -1,0 +1,443 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  /* box-sizing: border-box; */
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li, nav li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+html, body {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 576px) {
+  html, body {
+    font-size: 12px;
+  }
+}
+.Introducing__container, .mission__container, .primary__container {
+  display: grid;
+  max-width: 1920px;
+  margin: auto;
+  justify-content: center;
+}
+
+.mission__logo, .primary__logo {
+  justify-self: flex-end;
+  margin: 65px 0 25px 0;
+}
+@media screen and (max-width: 1200px) {
+  .mission__logo, .primary__logo {
+    justify-self: center;
+    margin-bottom: 80px;
+  }
+}
+
+.Introducing__logo, .team__logo {
+  position: absolute;
+  right: 119px;
+  top: 65px;
+}
+@media screen and (max-width: 1600px) {
+  .Introducing__logo, .team__logo {
+    right: 82px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Introducing__logo, .team__logo {
+    right: 50%;
+    transform: translate(50%);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .mission__right, .team__right, .primary__right {
+    padding-left: 94px;
+    padding-right: 119px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .mission__right, .team__right, .primary__right {
+    padding-left: 74px;
+    padding-right: 82px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .mission__right, .team__right, .primary__right {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mission__right, .team__right, .primary__right {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.primary__container {
+  grid-template-columns: minmax(488px, 757px) minmax(700px, 1fr);
+}
+@media screen and (max-width: 1200px) {
+  .primary__container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+.primary__left {
+  background-color: #2299ef;
+  display: grid;
+  padding: 93px 0;
+}
+.primary__img {
+  max-width: 100%;
+  margin: auto;
+}
+.primary__right {
+  display: grid;
+  width: 100%;
+  align-content: flex-start;
+}
+@media screen and (max-width: 1200px) {
+  .primary__right {
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-content: center;
+  }
+}
+.primary__title {
+  margin-bottom: 53px;
+}
+.primary__description {
+  max-width: 894px;
+  min-height: 289px;
+  margin-bottom: 61px;
+}
+@media screen and (max-width: 1200px) {
+  .primary__description {
+    justify-self: center;
+  }
+}
+.primary__socials {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 430px));
+  grid-gap: 62px 0px;
+}
+@media screen and (max-width: 1200px) {
+  .primary__socials {
+    justify-self: center;
+  }
+}
+@media screen and (max-width: 678px) {
+  .primary__socials {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+.title {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 4.5rem;
+  line-height: 5.5rem;
+  color: #4f4f4f;
+}
+@media screen and (max-width: 540px) {
+  .title {
+    font-size: 4rem;
+  }
+}
+
+.description {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  letter-spacing: 0em;
+  color: #4f4f4f;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.socials__item {
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+  height: fit-content;
+}
+@media screen and (max-width: 540px) {
+  .socials__item {
+    gap: 1rem;
+    overflow: hidden;
+  }
+}
+.socials__icon {
+  width: 4.375rem;
+  height: 4.375rem;
+}
+.socials__link {
+  color: #4f4f4f;
+  font-family: "Nunito", sans-serif;
+  font-size: 3rem;
+  line-height: 4.06rem;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 540px) {
+  .socials__link {
+    overflow: hidden;
+  }
+}
+.socials__link:hover {
+  transition: 0.5s;
+  filter: drop-shadow(4px 4px 7px rgba(22, 24, 22, 0.7));
+}
+
+.team__container {
+  max-width: 1920px;
+  display: grid;
+  margin: 0px auto 293px;
+  padding-top: 344px;
+  position: relative;
+}
+.team__body {
+  display: grid;
+  grid-template-columns: minmax(488px, 522px) 1fr;
+  padding-left: 140px;
+}
+@media screen and (max-width: 1200px) {
+  .team__body {
+    grid-template-columns: 1fr;
+    text-align: center;
+    row-gap: 120px;
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .team__left {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+.team__title {
+  margin-bottom: 25px;
+}
+.team__description {
+  font-size: 2.125rem;
+  line-height: 2.875rem;
+}
+@media screen and (max-width: 1200px) {
+  .team__description {
+    text-align: center;
+  }
+}
+.team__right {
+  display: grid;
+}
+.team__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  grid-gap: 60px 20px;
+}
+@media screen and (max-width: 540px) {
+  .team__items {
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-content: center;
+    grid-gap: 60px;
+  }
+}
+
+.teammate {
+  display: grid;
+  grid-template-columns: 191px minmax(min-content, 316px);
+  grid-template-rows: auto auto;
+  align-content: center;
+  grid-gap: 16px 34px;
+  color: #4f4f4f;
+}
+@media screen and (max-width: 540px) {
+  .teammate {
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-items: center;
+    grid-gap: 10px;
+  }
+}
+.teammate__picture {
+  grid-area: 1/1/3/2;
+  width: 191px;
+}
+.teammate__name {
+  font-family: "Nunito", sans-serif;
+  font-size: 3rem;
+  line-height: 4rem;
+  text-align: left;
+  align-self: flex-end;
+}
+.teammate__position {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.125rem;
+  line-height: 2.875rem;
+  text-align: left;
+}
+
+.mission__container {
+  margin: 0 auto 80px;
+  grid-template-columns: minmax(488px, 757px) minmax(700px, 1fr);
+}
+@media screen and (max-width: 1200px) {
+  .mission__container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+.mission__left {
+  display: grid;
+}
+.mission__img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .mission__img {
+    object-fit: fill;
+  }
+}
+.mission__right {
+  display: grid;
+  padding-bottom: 149px;
+}
+.mission__logo {
+  margin: 65px 0 25px 0;
+}
+.mission__title {
+  margin-bottom: 71px;
+}
+@media screen and (max-width: 1200px) {
+  .mission__title {
+    text-align: center;
+  }
+}
+.mission__points {
+  display: grid;
+  row-gap: 61px;
+}
+.mission__point-title {
+  font-size: 3rem;
+  line-height: 4rem;
+  margin-bottom: 19px;
+}
+.mission__description-description {
+  font-size: 2.125rem;
+  line-height: 2.875rem;
+}
+
+.Introducing__container {
+  position: relative;
+  height: 1080px;
+  background: url("./../../images/bg-screen/Bg.png");
+}
+@media screen and (max-width: 1600px) {
+  .Introducing__container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .Introducing__container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.Introducing__title {
+  max-width: 1110px;
+  align-self: center;
+  color: #fcf7f7;
+  text-align: center;
+  letter-spacing: 0em;
+  text-shadow: 4px 0 0 #73777a, -4px 0 0 #73777a, 0 4px 0 #73777a, 0 -4px 0 #73777a, 4px 4px #73777a, -4px -4px 0 #73777a, 4px -4px 0 #73777a, -4px 4px 0 #73777a;
+}
+
+/*# sourceMappingURL=style.css.map */
