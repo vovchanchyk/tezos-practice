@@ -16,6 +16,6 @@ $f-height-3: 2.875rem;
 $blue-color: rgba(34, 153, 239, 1);
 
 
-$tex-shadow: 4px 0 0 #73777a, -4px 0 0 #73777a, 0 4px 0 #73777a,
-  0 -4px 0 #73777a, 4px 4px #73777a, -4px -4px 0 #73777a, 4px -4px 0 #73777a,
-  -4px 4px 0 #73777a;
+$tex-shadow: 2px 0 0 #73777a, -2px 0 0 hsl(206, 3%, 46%), 0 1px 0 #73777a,
+  0 -2px 0 #73777a, 2px 2px #73777a, -2px -2px 0 #73777a, 2px -2px 0 #73777a,
+  -2px 2px 0 #73777a;
