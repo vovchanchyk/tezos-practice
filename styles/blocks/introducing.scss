@@ -3,7 +3,7 @@
     position: relative;
     @extend %container;
     height: 1080px;
-    background: url("/images/bg-screen/Bg.png");
+    background: url("./images/bg-screen/Bg.png");
     @include padding-horizontal(1600px, 40px);
     @include padding-horizontal(540px, 20px);
   }
