@@ -1,0 +1,22 @@
+{
+  "name": "tezos-practice",
+  "version": "1.0.0",
+  "description": "\"# tezos-practise\"  link: https://vovchanchyk.github.io/tezos-practice/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vovchanchyk/tezos-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vovchanchyk/tezos-practice/issues"
+  },
+  "homepage": "https://github.com/vovchanchyk/tezos-practice#readme",
+  "dependencies": {
+    "sass": "^1.39.2"
+  }
+}
